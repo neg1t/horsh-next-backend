@@ -1,7 +1,7 @@
 'use client'
 import { type FC, useTransition } from 'react'
 
-import { createUser } from '@/app/actions/createUser'
+import { createUser } from '@/app/actions/user-service/createUser'
 
 export const CreateUserButton: FC = () => {
   const [isPending, startTransition] = useTransition()
